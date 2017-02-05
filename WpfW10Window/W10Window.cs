@@ -15,14 +15,14 @@ using System.Windows.Shapes;
 
 namespace WpfW10Window
 {
-    /// <summary>
-    /// Interaction logic for UserControl1.xaml
-    /// </summary>
-    public partial class UserControl1 : UserControl
+    
+
+
+    public class W10Window : Window
     {
-        public UserControl1()
+        static W10Window()
         {
-            InitializeComponent();
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(W10Window), new FrameworkPropertyMetadata(typeof(W10Window)));
         }
     }
 }
