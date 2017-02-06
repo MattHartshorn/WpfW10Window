@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 
 namespace WpfW10Window
 {
-    public class WindowCaptionButton : Button
+    public class CaptionButton : Button
     {
-        static WindowCaptionButton()
+        static CaptionButton()
         {
-            DefaultStyleKeyProperty.OverrideMetadata(typeof(WindowCaptionButton), new FrameworkPropertyMetadata(typeof(WindowCaptionButton)));
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(CaptionButton), new FrameworkPropertyMetadata(typeof(CaptionButton)));
         }
     }
 }

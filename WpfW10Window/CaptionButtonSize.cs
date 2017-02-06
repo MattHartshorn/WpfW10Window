@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace WpfW10Window
 {
-    public enum WindowCaptionButtonTheme
+    public enum CaptionButtonSize
     {
-        Lighten,
-        Darken,
+        Normal,
+        Small,
     }
 }

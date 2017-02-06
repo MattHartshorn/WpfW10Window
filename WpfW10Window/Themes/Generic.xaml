@@ -17,10 +17,10 @@
         </Setter>
     </Style>
 
-    <Style TargetType="{x:Type local:WindowCaptionButton}">
+    <Style TargetType="{x:Type local:CaptionButton}">
         <Setter Property="Template">
             <Setter.Value>
-                <ControlTemplate TargetType="{x:Type local:WindowCaptionButton}">
+                <ControlTemplate TargetType="{x:Type local:CaptionButton}">
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
@@ -30,10 +30,10 @@
         </Setter>
     </Style>
 
-    <Style TargetType="{x:Type local:WindowChrome}">
+    <Style TargetType="{x:Type local:TitleBar}">
         <Setter Property="Template">
             <Setter.Value>
-                <ControlTemplate TargetType="{x:Type local:WindowChrome}">
+                <ControlTemplate TargetType="{x:Type local:TitleBar}">
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">

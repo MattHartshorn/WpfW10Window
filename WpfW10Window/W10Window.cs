@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace WpfW10Window
 {
-    
-
-
     public class W10Window : Window
     {
         static W10Window()

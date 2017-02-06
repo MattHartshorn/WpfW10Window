@@ -48,6 +48,7 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CaptionButtonSize.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -62,9 +63,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="W10Window.cs" />
-    <Compile Include="WindowCaptionButton.cs" />
-    <Compile Include="WindowCaptionButtonTheme.cs" />
-    <Compile Include="WindowChrome.cs" />
+    <Compile Include="CaptionButton.cs" />
+    <Compile Include="CaptionButtonTheme.cs" />
+    <Compile Include="TitleBar.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
